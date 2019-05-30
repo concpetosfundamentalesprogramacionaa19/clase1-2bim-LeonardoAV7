@@ -67,8 +67,9 @@ public class Ejemplo31 {
         
         System.out.println("Resultados");
         // visualizamos el menu de resultados
+        System.out.printf("Notas ingresadas\nRangos: \n");
         for(int i = 0; i<datos.length; i++){
-            System.out.printf("Ventas en %s - %d\n", rangos[i], datos[i]);
+            System.out.printf("%s - %d\n", rangos[i], datos[i]);
         }
         
 
